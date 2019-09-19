@@ -5,6 +5,6 @@ The data on which the project is based can be collected from https://www.kaggle.
 Note that a smaller subsample of the results presented here were used to produce these results.
 
 Three versions of a Logistic regression model were made:
-- Model 1: Simple logistic regression model
-- Model 2: With feature selection
-- Model 3: With feature selection and undersampling
+- Model 1: features selected based on correlation
+- Model 2: feature selection based on correlation and undersampling to handle class imbalance
+- Model 3: feature selection using RFE and Lasso, with undersampling to handle class imbalance
